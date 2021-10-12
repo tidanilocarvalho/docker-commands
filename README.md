@@ -20,7 +20,7 @@ docker stats --all --format "table {{.Container}}\t{{.CPUPerc}}\t{{.MemUsage}}"
 docker pull
 
 # run
-docker run <image_number>
+docker run <image_id>
 
 # stop
-docker stop <image_number>
+docker stop <container_id>
