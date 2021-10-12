@@ -1,7 +1,7 @@
 # Docker Commands
 
 # Version
-docker --version \
+docker --version
 
 # Images
 docker ps --all \
