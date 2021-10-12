@@ -1,9 +1,9 @@
 # Docker Commands
 
-# Version
+# version
 docker --version
 
-# Images
+# images
 docker ps --all \
 docker images \
 docker images -a \
@@ -24,3 +24,6 @@ docker run <image_id>
 
 # stop
 docker stop <container_id>
+
+# remove
+docker rmi -f <image_id>
